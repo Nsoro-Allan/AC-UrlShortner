@@ -1,6 +1,6 @@
 async function shortenUrl() {
     const originalUrl = document.getElementById("originalUrl").value;
-    const apiKey = 'YOUR_BITLY_API_KEY'; // Replace with your Bitly API key
+    const apiKey = 'b294ac4bcdafba8e92ee3c7c87eb55a901df64cc'; // Replace with your Bitly API key
 
     try {
         const response = await fetch(`https://api-ssl.bitly.com/v4/shorten`, {
