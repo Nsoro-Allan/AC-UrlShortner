@@ -3,16 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>URL Shortener</title>
+    <title>AC - URLShortener</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./imgs/icon.ico" type="image/x-icon">
 </head>
 <body>
-    <h1>URL Shortener</h1>
-    <label for="originalUrl">Enter your URL:</label>
-    <input type="text" id="originalUrl" placeholder="Enter your long URL">
-    <button onclick="shortenUrl()">Shorten</button>
-    
-    <div id="shortenedUrl">
-        Shortened URL: <a id="shortUrl" href="" target="_blank"></a>
+
+    <div class="main-container">
+
+        <div class="title">
+            <img src="./imgs/icon_64.png" alt="">
+           <h1>AC - URLShortener</h1>
+           <div class="line"></div>
+        </div>
+
+        <div class="content">
+
+            <label for="originalUrl">URL:</label>
+
+            <input type="text" id="originalUrl" placeholder="Enter your URL..">
+            
+            <div id="shortenedUrl">
+                Shortened URL:<br>
+                <a id="shortUrl" href="" target="_blank"></a>
+            </div>
+
+            <button onclick="shortenUrl()">Shorten Url</button>
+
+        </div>
+
+        <div class="long-line"></div>
+
+        <div class="footer">
+            <p>Developed by <a href="https://allancorp.netlify.app">AllanCorp</a></p>
+        </div>
+
+
     </div>
 
     <script src="./script.js"></script>

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(34,93,196);
+}
+
+.main-container{
+    padding: 20px;
+    background: #fff;
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.171);
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title img{
+    width: 12%;
+}
+
+.title h1{
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
+.line{
+    margin-top: 5px;
+    padding: 2.5px;
+    background: black;
+    border-radius: 50px;
+    width: 15%;
+    text-align: center;
+}
+
+.content{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content label{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.content input{
+    padding: 10px;
+    margin-top: 10px;
+    outline-color: rgb(34,93,196);
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.712);
+}
+
+.content button{
+    margin-top: 10px;
+    padding: 9px;
+    border: none;
+    background: rgb(34,93,196);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: all ease-in-out 0.3s;
+    border: 1.5px solid rgb(34,93,196);
+}
+
+.content button:hover{
+    border: 1.5px solid rgb(34,93,196);
+    color: rgb(34,93,196);
+    cursor: pointer;
+    /* background: rgb(69, 119, 204); */
+    background: transparent;
+    transition: all ease-in-out 0.3s;
+}
+
+#shortenedUrl{
+    margin-top: 15px;
+}
+
+#shortenedUrl a{
+    color: rgb(34,93,196);
+}
+
+.long-line{
+    width: 100%;
+    background: black;
+    padding: 0.3px;
+    margin-top: 25px;
+}
+
+.footer{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 0.9rem;
+}
+
+.footer p a{
+    color: rgb(34,93,196);
+    font-weight: bold;
+}
+
+
+
+
+
